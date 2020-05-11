@@ -1,0 +1,31 @@
+{
+  "name": "plutt-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/proxy/react.js",
+  "types": "build/proxy/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "plutt build",
+    "serve": "plutt serve build/plutt-component"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@digitalroute/plutt": "^2.0.0-beta.12",
+    "@types/node": "^13.9.8",
+    "@types/react-dom": "^16.9.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "plutt": {
+    "hostPath": "http://localhost:5000"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^4.1.1",
+    "@types/react": "^16.9.35",
+    "rollup": "^2.9.1",
+    "typescript": "^3.8.3"
+  }
+}
