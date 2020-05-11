@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MicroApp from "plutt-component";
+import Reverser from "plutt-component";
 import { useState } from "react";
 
 const Home = () => {
@@ -27,7 +27,7 @@ const Home = () => {
           />
         </label>
       </div>
-      {showReverse && <MicroApp name={name} />}
+      {showReverse && <Reverser name={name} />}
     </div>
   );
 };
